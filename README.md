@@ -13,21 +13,17 @@ Your goal is to:
 
 Replace this paragraph with your own summary of what your version does.
 
+Real AI recommenders, such as Spotify, use convolutional neural networks to breakdown the auditory components of user-selected songs, recommending similar music. 
+
 ---
 
 ## How The System Works
 
-Explain your design in plain language.
-
-Some prompts to answer:
-
-- What features does each `Song` use in your system
-  - For example: genre, mood, energy, tempo
-- What information does your `UserProfile` store
-- How does your `Recommender` compute a score for each song
-- How do you choose which songs to recommend
-
-You can include a simple diagram or bullet list if helpful.
+- Song classes will hold a variety of auditory component and metadata: artist, genre, mood, energy, tempo, valence, acousticness, and danceability
+- A user profile will consist of a favorite song, mood, energy, and preferences for all song components
+- The recommendation system calculates weights based on user preference and song content, providing explanations for each choice
+- The algorithm uses hard filters, such as genre and mood, to ensure that users receive music that pertains to their taste. Additional numerical features are focused on zeroing in on inter-genre songs. 
+- In this manner, there exist potential biases in favoring genre and mood, causing potentially favorable songs to be overlooked. 
 
 ---
 
