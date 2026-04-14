@@ -2,13 +2,13 @@
 
 ## 1. Model Name
 
-**VibeFinder 1.0**
+**MusicMachine 1.0**
 
 ---
 
 ## 2. Goal / Task
 
-VibeFinder suggests songs that match how a user feels right now.
+MusicMachine suggests songs that match how a user feels right now.
 You tell it your preferred genre, mood, and targets for energy, tempo, acousticness, valence, and danceability.
 It scores every song in the catalog against those preferences and returns the five best matches.
 This is a classroom simulation — not a production app.
