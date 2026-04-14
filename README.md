@@ -2,18 +2,9 @@
 
 ## Project Summary
 
-In this project you will build and explain a small music recommender system.
+- Real AI recommenders, such as Spotify, use convolutional neural networks to breakdown the auditory components of user-selected songs, recommending similar music. This application takes a holistic approach, evaluating the aggregate data of both the music and user profile preferences to evalute a ranked-choice system for song recommendations. 
 
-Your goal is to:
-
-- Represent songs and a user "taste profile" as data
-- Design a scoring rule that turns that data into recommendations
-- Evaluate what your system gets right and wrong
-- Reflect on how this mirrors real world AI recommenders
-
-Replace this paragraph with your own summary of what your version does.
-
-Real AI recommenders, such as Spotify, use convolutional neural networks to breakdown the auditory components of user-selected songs, recommending similar music. 
+![Music System Architecture](music%20system.png)
 
 ---
 
@@ -25,7 +16,16 @@ Real AI recommenders, such as Spotify, use convolutional neural networks to brea
 - The algorithm uses hard filters, such as genre and mood, to ensure that users receive music that pertains to their taste. Additional numerical features are focused on zeroing in on inter-genre songs. 
 - In this manner, there exist potential biases in favoring genre and mood, causing potentially favorable songs to be overlooked. 
 
+![Terminal View](terminal.png)
+
 ---
+
+## Edge Case Overview
+
+![Edge Case Profiles](edge1.png)
+![](edge2.png)
+![](edge3.png)
+![](edge4.png)
 
 ## Getting Started
 
